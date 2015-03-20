@@ -1,0 +1,6 @@
+[submodule "popularioty-runtime-analytics"]
+	path = popularioty-runtime-analytics
+	url = https://github.com/nopbyte/popularioty-runtime-analytics
+[submodule "popularioty-commons"]
+	path = popularioty-commons
+	url = https://github.com/nopbyte/popularioty-commons
