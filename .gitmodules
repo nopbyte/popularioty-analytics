@@ -7,3 +7,6 @@
 [submodule "popularioty-feedback-analytics"]
 	path = popularioty-feedback-analytics
 	url = git://github.com/nopbyte/popularioty-feedback-analytics/
+[submodule "popularioty-analytics-aggregator"]
+	path = popularioty-analytics-aggregator
+	url = https://github.com/nopbyte/popularioty-analytics-aggregator

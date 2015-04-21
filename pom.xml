@@ -23,5 +23,6 @@
   </dependencies>
   <modules>
     <module>popularioty-runtime-analytics</module>
+    <module>popularioty-analytics-aggregator</module>
   </modules>
 </project>
