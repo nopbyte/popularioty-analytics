@@ -10,3 +10,6 @@
 [submodule "popularioty-analytics-aggregator"]
 	path = popularioty-analytics-aggregator
 	url = https://github.com/nopbyte/popularioty-analytics-aggregator
+[submodule "popularioty-analytics-pig-sqoop"]
+	path = popularioty-analytics-pig-sqoop
+	url = https://github.com/nopbyte/popularioty-analytics-pig-sqoop
