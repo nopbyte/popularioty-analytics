@@ -36,18 +36,22 @@ source 3-normalize-data.sh
 ## 4. Aggregate data (Create final reputation values querying the previous ones...
 # Running the aggregator MR job
 
-## MERGE F_NORMALIZED_DATA WITH F_MR_FEEDBACK
+# This script 
+## Exports:
+# F_AGGREGATE_OUTPUT: output of the whole aggregation
 
-
+source 4-run-aggregation-jobs.sh 
 
 ################################################################################
 ## 5. SEPARATE DATA ACCORDING TO COUCHBASE BUCKET
-
 # Run the other pig script...
+
+source 5-separate-by-bucket.sh
 
 ################################################################################
 ## 5. EXPORT DATA BACK
 
+source 6-store-final-data.sh
 
 
 
